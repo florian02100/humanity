@@ -1,0 +1,11 @@
+.fromTag{
+    display: flex;
+    flex-direction: column;
+}
+.Content-tag{
+    background-color: #fff;
+    border-radius: 3rem;
+    padding:  2% 2% 2% 2%;
+    margin-top:2%;
+    margin-bottom:2%;
+}

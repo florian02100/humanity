@@ -1,0 +1,30 @@
+.droparea{
+    background-color:#ccc;
+    width: 100%;
+    height: 80%;
+    padding: 2% 2% 2% 2%;
+    border-radius: 2rem;
+}
+.droparea__input{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+.droparea__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-size: cover;
+    position: relative;
+  }
+  .drop-text{
+      color:#333;
+      font-size: 2rem;
+      display: inline;
+      position: absolute;
+      top:40%;
+      width: 45%;
+}
+  

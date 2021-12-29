@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@900&display=swap');
+
+:root {
+  --main-bg-color: #fefefe;
+}
+
+hr{
+  border:1px #333333 solid;
+
+}
+.highlight-bar{
+  border:1px #db0029 solid;
+
+}
+.highlight-bar-profile{
+  border:1px #db0029 solid;
+  
+}
+
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+h1,h2,h3{
+  font-family: 'Chivo', sans-serif;
+  color : #333333;
+  background-color: none;
+}
+h1{
+  padding: 2% 1% 1% 1%;
+}
+h5{
+  font-family: 'Chivo', sans-serif;
+  color : #f2f2f2;
+  text-align: center;
+}
+
+
+.Home, .Profil, .Wall, .Votes, .Subscriptions, .Login{
+  align-self: center;
+  display:inline;
+  height: auto;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  width: 100%;
+  background-color: var(--main-bg-color);
+}
+
+.home-content{
+  align-self: center;
+  display:flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  width: 100%;
+  background-color: var(--main-bg-color);
+}
+.home-content-title{
+  align-self: center;
+  display:flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  width: 100%;
+  margin-top: 10vh;
+  background-color: var(--main-bg-color);
+}
+
+.home-search-title{
+  align-self: center;
+  display:flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  width: 100%;
+  margin-top: 10vh;
+  background-color: var(--main-bg-color);
+}
+
+.Content-about{
+  background-color:#F2f2f2;
+  width: 50%;
+  display:inline;
+  justify-content: start;
+  align-items: center;
+  border-radius: 5px;
+  margin-top:2%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 3%;
+  font-size: 1rem;
+  padding: 5% 5% 5% 5%;
+}
+
+/* Les sections suivantes sont des classes liées à Humanity, des styles de button, de lien*/
+
+.humanity-input{
+  background-color: #ddd;
+  color: #333333;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+a{
+  color: #db0029;
+}
+
+
+.humanity-profil-image{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.humanity-button{
+  color: #f2f2f2;
+  font-weight: bold;
+  background-color: #333;
+  border-radius: 1rem;
+  width: 90%;
+  height: 5vh;
+  border: none;
+}
+
+.humanity-button:hover{
+  color: #f2f2f2;
+  font-weight: bold;
+  background-color: #db0029;
+}
+
+.subtitle{
+  color:#555;
+}
+
+.animation-search{
+  border:none;
+  background-color: none;
+}
+
+.animation-home{
+  border:none;
+  width: 100%;
+}
+

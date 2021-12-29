@@ -1,0 +1,127 @@
+:root {
+    --main-bg-color: #ddd;
+  }
+  
+  .nav-userprofile{
+      width: 45%;
+      display:inline;
+      justify-content: start;
+      align-items: center;
+      margin-top:2%;
+      margin-bottom: 3%;
+      background-color: none;
+      border-radius: 10px;
+      padding :  2% 2% 2% 2%;
+  }
+  .TabProfile{
+      font-size: 1rem;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-left: 0;
+  }
+  
+  .ProfileHeader{
+      display: inline-block;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color:#fff;
+      border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+      
+  }
+  .ProfilePunchline {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  
+  }
+  .ProfilePucnhline p{
+      font-size: 1.5rem;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      text-align: center;
+  
+  }
+  .ProfileName {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  
+  }
+  .ProfileName p{
+      font-size: 2.5rem;
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+  .ProfileImgFriends{
+      border: #fff solid 5px;
+      width: 30%;
+      height: 30%;
+      margin-top: -10%;
+      border-radius: 10rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      
+  }
+
+  .tag-div{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+  }
+  .tagUser{
+    background-color: #db0029;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: 2%;
+    width: auto;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    padding: 2% 2% 2% 2%;
+  }
+  .Content-div{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .animation{
+      border:none;
+      text-align: center;
+      align-items: center;
+      justify-items: center;
+      width: 40%;
+      margin-left: 30%;
+
+  }
+  .buttonFriends{
+      border: none;
+      width: 10vh;
+      height: 10vh;
+      border-radius: 5vh;
+      background-color: #393939;
+  }
+  .buttonFriends:hover{
+      background-color: #db0029;
+  }
+  .ProfileBanner{
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 40vh;
+    width: 100%;
+    border-radius: 10px;
+  }

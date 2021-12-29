@@ -1,0 +1,248 @@
+:root {
+  --main-bg-color: #ddd;
+}
+
+.nav-profile{
+    width: 50%;
+    display:inline;
+    justify-content: start;
+    align-items: center;
+    margin-top:10%;
+    margin-bottom: 3%;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.TabProfile{
+    font-size: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 0;
+    margin-top: 5%;
+}
+
+.ProfileHeaderSet{
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:none;
+    
+}
+
+
+.ProfileImgSet{
+    display: inline-block;
+    padding: 4% 4% 4% 4%;
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    border-radius: 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.life-content{
+    align-self: center;
+    display:flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.titleGeneral{
+    width: 75%;
+}
+.lifeExpQuestion{
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.lifeExpAnswer{
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+  
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+    background: #f2f2f2;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: #ff1b1c;
+  }
+  
+  *, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #f2f2f2;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    margin: 100px auto 0;
+    word-break: break-all;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    
+  }
+  
+  input{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    background: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #333;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+  .title-highlight{
+
+    border-bottom: 2px #ff1b1c solid;
+    margin-bottom: 1%;
+  }
+
+  .best-line{
+    width: 150%;
+    display: flex;
+  }
+  .connaissances-line{
+    width: 150%;
+    display: flex;
+  }
+.textarea-profile{
+  width: 100%;
+  height: 30vh;
+  resize: none;
+}
+.connect{
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.submit-button{
+  background-color: #db0029;
+  border: none;
+  border-radius: 2.5vh;
+  height: 5vh;
+  padding: 2% 2% 2% 2%;
+  color: #fff;
+}
+
+.buttonEdit{
+  border : none;
+  font-size: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.buttonEdit:hover{
+  background-color: #db0029;
+}
+
+.buttonEdit>input {
+  display: none;
+}
+
+.ProfilePunchlinediv {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.ProfileNamediv {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProfileNameInput{
+  font-size: 2rem;
+  width: 50%;
+  margin-left: 25%;
+  border: none;
+}
+
+.ProfileLineEdit{
+  display: flex;
+  flex-direction: row;
+}

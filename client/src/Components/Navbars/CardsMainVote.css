@@ -1,0 +1,64 @@
+.cards-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: right;
+    justify-content: right;
+    position: fixed;
+    left:2%;
+    top:40%;
+}
+.Cards{
+    width: auto;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cards-text{
+    color:#000;
+    margin-bottom: 4%;
+    font-size: 0.8rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.iconCards{
+    width: 100%;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    color: #333333;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.button-main-vote{
+    color: #f2f2f2;
+    font-weight: bold;
+    background-color: #333;
+    border-radius: 1rem;
+    width: 90%;
+    height: 5vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.button-main-vote:hover{
+    background-color: #ff1b1c;
+}
+.hr-cards{
+    width: 90%;
+    margin-left: 5%;
+    border:#ff1b1c 1px solid;
+}

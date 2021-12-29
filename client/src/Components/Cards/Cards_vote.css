@@ -1,0 +1,80 @@
+.cards-line{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Cards{
+    width: auto;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cards-text{
+    color:#000;
+    margin-bottom: 4%;
+    font-size: 0.8rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.iconCards{
+    width: 100%;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    color: #333333;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.button-cards-yes{
+    color: #f2f2f2;
+    font-weight: bold;
+    background-color: #4cd926;
+    border-radius: 1rem;
+    width: 90%;
+    height: 5vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.button-cards-no{
+    color: #f2f2f2;
+    font-weight: bold;
+    background-color: #ff1b1c;
+    border-radius: 1rem;
+    width: 90%;
+    height: 5vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.button-cards-yes:hover{
+    color: #333;
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+.button-cards-no:hover{
+    color: #333;
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+.hr-cards{
+    width: 90%;
+    margin-left: 5%;
+    border:#ff1b1c 1px solid;
+}

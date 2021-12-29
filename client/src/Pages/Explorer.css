@@ -1,0 +1,13 @@
+.explorer-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+}
+
+.title-tag{
+    list-style: none;
+    margin-left: 25%;
+    width: 50%;
+    padding-bottom: 2%;
+    border-bottom: 2px #db0029 solid;
+}

@@ -1,0 +1,57 @@
+.list-notif{
+    width: 100%;
+}
+.notif-button{
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2% 2% 2%;
+}
+.notif-button:hover{
+    color:#f2f2f2;
+    background-color: #ff1b1c;
+}
+.notif-content{
+    display: flex;
+    list-style: none;
+    padding: 2% 2% 2% 2%;
+    border-bottom: 1px #ccc solid;
+}
+.notif-text{
+    margin-top: 3%;
+    padding: 0 2% 0 2%;
+}
+.img-notif{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+  [role='tooltip'].popup-content {
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+
+  .notif-profile-button{
+      color:#f2f2f2;
+      background-color: #333;
+      width: auto;
+      height: auto;
+      padding: 2% 2% 2% 2%;
+      border-radius: 10%;
+      margin-left: auto;
+      margin-right: 0;
+  }
+
+  .notif-profile-button:hover{
+    color:#f2f2f2;
+    background-color: #ff1b1c;
+}

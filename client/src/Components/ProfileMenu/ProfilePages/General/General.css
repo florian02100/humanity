@@ -1,0 +1,22 @@
+.general-content{
+    width: 100%;
+}
+
+.field-general{
+    padding: 2% 2% 2% 2%;
+
+}
+.question{
+    width: 100%;
+    padding: 0 2% 0 2%;
+    border-bottom:2px #db0029 solid;
+}
+.response{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    height:fit-content;
+}
+.formGeneral{
+    margin-top:2%;
+}

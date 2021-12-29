@@ -1,0 +1,142 @@
+.login-content{
+    align-self: left;
+    display:flex;
+    height: auto;
+    align-items: left;
+    justify-content: left;
+    font-size: 3rem;
+    width: 100%;
+    background-image: url("login_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .login-content-hidden{
+    display: none;
+  }
+
+  .login-google-content{
+    align-self: center;
+    display:flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    width: 100%;
+    background-color: var(--main-bg-color);
+
+  }
+  
+  .login-google-content-hidden{
+    display: none;
+  }
+
+  .login-fb-content{
+    align-self: center;
+    display:flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    width: 100%;
+    background-color: var(--main-bg-color);
+
+  }
+  
+  .login-fb-content-hidden{
+    display: none;
+  }
+  .login-content-title{
+    align-self: center;
+    display:flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    width: 100%;
+    margin-top: 10vh;
+    background-color: var(--main-bg-color);
+  
+  
+  }
+
+
+  .login-container{
+      width: 100%;
+      display: flex;
+  }
+.humanity-login{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .social-login{
+    display: inline;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .google-login-button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .form-login{
+    display: inline-block;
+    margin-bottom: 5%;
+  }
+  
+  .hr-login{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .card-login{
+    text-align: center;
+    width: 30%;
+    background-color: #fff;
+    padding : 10% 2% 2% 2%;
+  }
+  .label-login{
+    font-size: 1.5rem;
+  }
+  .card-signup{
+    text-align: center;
+    margin-top:2%;
+    margin-bottom: 2%;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding : 2% 2% 2% 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #ccc;
+
+
+  }
+
+  .social-login-container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .quote{
+    position: fixed;
+    top:10vh;
+    left: 32%;
+
+  }
+
+  .quote h3{
+    font-size: 5rem;
+    color: #fff;
+  }
+  .quote p{
+    font-size: 3rem;
+    color: #fff;
+  }
+

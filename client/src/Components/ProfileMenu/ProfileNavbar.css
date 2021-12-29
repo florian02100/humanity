@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@900&display=swap');
+
+.profile-navbar-content{
+    width:30%;
+    height : auto;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    border-right: #ccc 2px solid;
+    padding: 2% 2% 2% 2%;
+    margin-left: 2%;
+}
+.navbar{
+    height:auto;
+    width: 100%;
+    display:inline;
+    justify-content: left;
+    align-items: left;
+    background-color: #fff;
+}
+
+.title-navbar-company{
+    font-family: 'Chivo', sans-serif;
+    font-weight: bold;
+    font-size : 2rem;
+    margin-left: 2%;
+    background:none;
+    color : #fff;
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.company-info{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 1rem;
+    margin-right: 10%;
+}
+.company-logo{
+    width: 20%;
+    margin-top: 2%;
+    background-color: #fff;
+
+}
+.company-name{
+    width: 30%;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    padding:  1% 1% 1% 1%;
+}
+
+.menu-bars{
+    display: inline-block;
+    margin-left: 2rem;
+    font-size:2rem;
+    background: none;
+    width: 100%;
+}
+.nav-menu{
+    background-color: #333333;
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    padding: 0 0 0 2%;
+    position: fixed;
+    top:0;
+    left:-100%;
+    
+}
+.nav-menu.active {
+    left : 0;
+    transition: 350ms;
+}
+
+.nav-text-profile{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    list-style: none;
+
+}
+
+.nav-text-profile a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 10rem;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    border-radius: 4px;
+    text-align: left;
+    justify-content: left;
+    padding: 2% 2% 2% 2%;
+    margin-top: 2%;
+
+}
+
+.nav-text-profile a:hover{
+    background-color:#db0029;
+    color: #f2f2f2;
+}
+
+.nav-text-single{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+
+}
+
+.nav-text-single a{
+    text-decoration: none;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-text-single a:hover{
+    background-color:#ff1b1c;
+    color: #f2f2f2;
+}
+.separator{
+    margin-left: 10%;
+    list-style: none;
+}
+.nav-menu-items {
+    width: 100%;
+   
+}
+
+.navbar-toggle{
+    background:none;
+    color : #333;
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.spaceBar{
+    border: #333333 0.5px solid;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+span{
+    margin-left: 16px;
+}
+
+.navbar-header{
+    width: 100%;
+    height: 10vh;
+    padding: 0% 25% 0% 25%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+}
+

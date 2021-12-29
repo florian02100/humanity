@@ -1,0 +1,80 @@
+.Tchat-container{
+    width: 100%;
+    display:inline;
+    justify-content: start;
+    align-items: center;
+    border-radius: 5px;
+    margin-top:3%;
+    margin-bottom: 3%;
+    font-size: 1 rem;
+    border-left: 2px #ccc solid;
+}
+
+.container-user{
+    display: inline;
+    margin-bottom: 5%;
+
+}
+
+.container-user i{
+    font-size: 1rem;
+    margin-left: 20%;
+}
+
+.title-tchat{
+
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2% 2% 2% 2%;
+
+}
+.content-user1, .content-user2{
+    display: flex;
+    font-size: 1rem;
+    padding : 5% 5% 0% 5%;
+}
+
+.photo-user1, .photo-user2{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    border: 3px #4cd926 solid;
+}
+.message-user1{
+    background-color: #D99202 ;
+    color:#333;
+    padding: 5% 5% 5% 5%;
+    border-radius: 1rem;
+    margin-left:5%;
+}
+.message-user2{
+    background-color: #ccc ;
+    color:#333;
+    padding: 5% 5% 5% 5%;
+    border-radius: 1rem;
+    margin-right:5%;
+}
+.container-input{
+    display: flex;
+}
+.text-input{
+    width: 80%;
+    border: none;
+    background-color: #fff;
+    height: 4vh;
+    border-radius: 2vh;
+    resize:none;
+    text-indent: 15px;
+}
+.buttonMessage{
+    width: 15%;
+    margin-right: 2%;
+    height: 4vh;
+    border-radius: 2vh;
+    background-color: #db0029;
+    color: #fff;
+    font-weight: bold;
+    border:none;
+    vertical-align: bottom;
+}

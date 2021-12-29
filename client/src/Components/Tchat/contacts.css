@@ -1,0 +1,32 @@
+.container-contacts{
+    width: 100%;
+}
+.list-contacts{
+
+ width: 100%;
+}
+.contact-info{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    margin-top: 5%;
+    padding: 2% 2% 2% 2%;
+}
+.contact-photo{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+.text-infos{
+    width: 100%;
+    font-size: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+}
+.contact-name{
+
+}
+.contact-punchline{
+    color: #888;
+}

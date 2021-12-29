@@ -1,0 +1,250 @@
+.content-nav-userfeed{
+    display:inline;
+    justify-content: start;
+    align-items: center;
+    width: 60%;
+    border-radius: 5%;
+    margin-left: 2%;
+}
+.map-container{
+    background-color:#fff;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 1rem;
+    margin-top:2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 3%;
+}
+
+.header-feed{
+    display: flex;
+    padding: 2% 2% 2% 2%;
+}
+.photo-profile{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+.title-feed{
+    background-color: #fff;
+    border-radius: 5px;
+    color:#333333;
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 2%;
+}
+.content-feed{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #fff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.content-text{
+    width: 80%;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    background-color: none;
+    color: #333333;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.menu-item-feed{
+    width: 90%;
+    margin-left: 5%;
+    list-style: none;
+    text-decoration: none;
+}
+.menu-item-form{
+    width: 100%;
+}
+.menu-item-text{
+    width: 100%;
+    height: 4vh;
+    border-radius: 2vh;
+    text-decoration: none;
+    border:none;
+    text-indent: 10px;
+    font-size: 1rem;
+}
+.button-menu-feed{
+    width: 90%;
+    margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    text-align: center;
+}
+.button-feed{
+    border:none;
+    background-color:#333333;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f2f2f2;
+    width: 80%;
+    margin-top: 3vh;
+    margin-left: 2%;
+    border-radius: 4px;
+    height: 3rem;
+    margin-bottom: 3vh;
+}
+.button-feed:hover{
+    background-color:#ff1b1c;
+}
+
+.feed-menu-commentary{
+    display: flex;
+    width: 100%;
+}
+.commentary{
+    display: flex;
+    margin: 2% 5% 2% 2%;
+    font-size: 0.8rem;
+    width: auto;
+    background-color: #cccccc;
+    border-radius: 1rem;
+}
+
+.commentary p{
+    margin: 2% 2% 2% 2%;
+    font-size: 0.8rem;
+    width: auto;
+}
+
+.commentary-picture{
+    display: flex;
+    margin: 4% 4% 4% 5%;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+}
+.button-menu-commentary{
+    width: 90%;
+    margin-left: 5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.button-commentary{
+    border:none;
+    background-color:#333333;
+    font-size: 1rem;
+    color: #f2f2f2;
+    width: 80%;
+    margin-top: 5%;
+    border-radius: 4px;
+    height: 3rem;
+    margin-left : 2%;
+    margin-bottom: 5%;
+}
+.button-commentary:hover{
+    border:none;
+    background-color:#ff1b1c;
+    font-size: 1rem;
+    color: #f2f2f2;
+    width: 80%;
+    margin-top: 3vh;
+    border-radius: 4px;
+    height: 3rem;
+    margin-bottom: 3vh;
+}
+.commentary-content{
+    display: block;
+}
+
+hr{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.post-img-friends{
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 50vh;
+    width: 80%;
+    border-radius: 10px;
+}
+.editPost{
+    margin-right: 2%;
+    margin-left: auto;
+    font-size: 2rem;
+    color: #333333;
+    width: fit-content;
+    height:fit-content;
+    padding: 2% 2% 2% 2%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.editPost:hover{
+    background-color:#cccccc ;
+}
+.tag-div-post{
+    margin-top: 2%;
+    padding: 2% 2% 2% 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.5rem;
+  }
+
+.tagExp{
+      background-color: #db0029;
+      border-radius: 1.5rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      list-style: none;
+      margin-left: 2%;
+      width: auto;
+      font-size: 0.8rem;
+      vertical-align: middle;
+      padding:  3% 3% 3% 3%;
+
+  }
+  .tagStyle{
+    background-color: #ffcb04;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: 2%;
+    width: auto;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    padding:  3% 3% 3% 3%;
+
+}
+.tagConv{
+    background-color: #4cd926;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: 2%;
+    width: auto;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    padding:  3% 3% 3% 3%;
+    border-radius: 1.5rem;
+
+}

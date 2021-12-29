@@ -1,0 +1,23 @@
+.google-signin-button{
+    visibility: visible;
+}
+.google-signin-button-hidden{
+  visibility: hidden;
+}
+
+.humanity-button{
+    color: #f2f2f2;
+    font-weight: bold;
+    background-color: #333;
+    border-radius: 1rem;
+    width: 90%;
+    height: 5vh;
+    border: none;
+  }
+  
+  .humanity-button:hover{
+    color: #f2f2f2;
+    font-weight: bold;
+    background-color: #db0029;
+  }
+  

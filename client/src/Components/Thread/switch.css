@@ -1,0 +1,20 @@
+.SiwtchPost{
+    display: inline;
+    width: 30%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.labelSwicthPrivacy{
+    margin-left:20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.switchPrivacy{
+    margin-bottom: 5%;
+}

@@ -1,0 +1,118 @@
+.cards-tchat-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: right;
+    justify-content: right;
+    position: fixed;
+    right:2%;
+    top:40%;
+}
+.Cards-tchat{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    padding: 5% 5% 5% 5%;
+}
+.cards-text{
+    color:#000;
+    margin-bottom: 4%;
+    font-size: 0.8rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.icon-messages{
+    margin-left: 2%;
+}
+.icon-notif{
+    margin-left: 2%;
+}
+.iconCards{
+    width: 100%;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    color: #333333;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+.button-main-vote{
+    color: #f2f2f2;
+    font-weight: bold;
+    background-color: #333;
+    border-radius: 1rem;
+    width: 90%;
+    height: 5vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.button-main-vote:hover{
+    background-color: #ff1b1c;
+}
+.hr-cards{
+    width: 90%;
+    margin-left: 5%;
+    border:#ff1b1c 1px solid;
+}
+.nav-friends{
+    text-decoration: none;
+    padding: 2% 2% 2% 2%;
+}
+.line-friends{
+    display: flex;
+    list-style: none;
+    text-align: left;
+    padding: 2% 2% 2% 2%;
+}
+.info-friends{
+    display: inline-block;
+}
+.picture-friends{
+    display: flex;
+    border: 4px #4cd926 solid;
+    margin: 4% 4% 4% 4%;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+
+}
+
+.button-friends{
+    width: 4rem;
+    height: 4rem;
+    border-radius:0.5rem;
+    font-size:2rem;
+    background-color: #333;
+    color:#f2f2f2;
+}
+
+.button-friends:hover{
+    background-color: #ff1b1c;
+}
+.title-tchat{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.nb-messages{
+    font-size: 1.5rem;
+    padding: 5% 5% 5% 5%;
+    font-weight: bold;
+}
+.nb-notif{
+    font-size: 1.5rem;
+    padding: 5% 5% 5% 5%;
+    font-weight: bold;
+
+}

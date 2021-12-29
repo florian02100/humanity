@@ -1,0 +1,15 @@
+.Parametres-content{
+    width: 100%;
+}
+
+.field-Parametres{
+    display: flex;
+    padding: 2% 2% 2% 2%;
+
+}
+.question{
+    width: 30%;
+    height:fit-content;
+    padding: 0 2% 0 2%;
+    border-bottom:2px #db0029 solid;
+}

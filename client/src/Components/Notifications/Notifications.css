@@ -1,0 +1,43 @@
+.list-notif{
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.notif-content{
+    display: flex;
+    list-style: none;
+    padding: 2% 2% 2% 2%;
+    border-bottom: 1px #ccc solid;
+}
+.notif-text{
+    color:#fff;
+    margin-top: 3%;
+    padding: 0 2% 0 2%;
+}
+.img-notif{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+  [role='tooltip'].popup-content {
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+
+  .notif-profile-button{
+      color:#333;
+      background-color: #ccc;
+      width: auto;
+      height: auto;
+      padding: 2% 2% 2% 2%;
+      border-radius: 10%;
+      margin-left: auto;
+      margin-right: 0;
+  }
+
+  .notif-profile-button:hover{
+    color:#fff;
+    background-color: #db0029;
+}

@@ -1,0 +1,145 @@
+.cards-line{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.Cards-posted-nopattern{
+    width: 15%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #f2f2f2;
+}
+
+.Cards-posted-zigzag{
+    width: 15%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(135deg, #FF1B1C 25%, transparent 25%), linear-gradient(225deg, #FF1B1C 25%, transparent 25%), linear-gradient(45deg, #FF1B1C 25%, transparent 25%), linear-gradient(315deg, #FF1B1C 25%, #e5e5f7 25%);
+    background-position:  38px 0, 38px 0, 0 0, 0 0;
+    background-size: 76px 76px;
+    background-repeat: repeat;
+}
+
+.Cards-posted-cube{
+    width: 20%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  linear-gradient(30deg, #FF1B1C 12%, transparent 12.5%, transparent 87%, #FF1B1C 87.5%, #FF1B1C), linear-gradient(150deg, #FF1B1C 12%, transparent 12.5%, transparent 87%, #FF1B1C 87.5%, #FF1B1C), linear-gradient(30deg, #FF1B1C 12%, transparent 12.5%, transparent 87%, #FF1B1C 87.5%, #FF1B1C), linear-gradient(150deg, #FF1B1C 12%, transparent 12.5%, transparent 87%, #FF1B1C 87.5%, #FF1B1C), linear-gradient(60deg, #FF1B1C77 25%, transparent 25.5%, transparent 75%, #FF1B1C77 75%, #FF1B1C77), linear-gradient(60deg, #FF1B1C77 25%, transparent 25.5%, transparent 75%, #FF1B1C77 75%, #FF1B1C77);
+    background-size: 76px 133px;
+    background-position: 0 0, 0 0, 38px 67px, 38px 67px, 0 0, 38px 67px;
+}
+
+.Cards-content{
+    background-color: #f2f2f2;
+    padding:5% 5% 5% 5%;
+}
+.cards-text{
+    color:#000;
+    
+    margin-bottom: 4%;
+    font-size: 0.8rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.Cards-posted-picture{
+    width: 60%;
+    border-radius:10%;
+}
+.iconCards-posted{
+    width: 100%;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    color: #333333;
+    margin-top: 5%;
+}
+.button-cards{
+    color: #f2f2f2;
+    font-weight: bold;
+    background-color: #333;
+    border-radius: 1rem;
+    width: 90%;
+    height: 5vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.button-cards:hover{
+    color: #f2f2f2;
+    font-weight: bold;
+    background-color: #db0029;
+}
+.hr-cards{
+    width: 90%;
+    margin-left: 5%;
+    border:#db0029 1px solid;
+}
+.tags-posted{
+    display: inline;
+}
+.tag-posted{
+    width: auto;
+    margin-left: 2%;
+    list-style: none;
+    font-size: 1rem;
+    background-color: #db0029;
+    padding: 2% 2% 2% 2%;
+    border-radius: 5%;
+    margin-top: 2%;
+
+}
+
+.posted-bar{
+    width: 50%;
+    height: 4vh;
+    border-radius: 2vh;
+    text-decoration: none;
+    border:none;
+    text-indent: 10px;
+    font-size: 1rem;
+    margin-bottom: 2%;
+}
+.deleteDate{
+    font-style: italic;
+    font-size: 0.8rem;
+    padding:5% 2% 5% 2%;
+}

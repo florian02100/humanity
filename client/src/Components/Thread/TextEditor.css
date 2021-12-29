@@ -1,0 +1,123 @@
+.TextEditorContainer{
+    width: 100%;
+    height: auto;
+    padding: 2% 0% 2% 0%;
+}
+
+.drag_drop_area{
+    background-color:none;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 2rem;
+    color: #333;
+    display: inline;
+    border-radius: 1rem;
+}
+.dropIcon{
+    margin-top: 35%;
+}
+.datepost{
+    display: flex;
+}
+.dropContainer{
+    display: inline;
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 0;
+}
+
+.drag_drop_area h8{
+    background-color:none;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.post-text{
+    width: 100%;
+    height:30vh;
+    border: none;
+    margin-top: 5%;
+    text-indent: 5px;
+    padding-bottom: 2%;
+    resize:none;
+}
+.separator{
+    border-bottom: 1px #ccc solid;
+    width: 100%;
+    margin-left: -3%;
+    margin-bottom: 2%;
+    margin-top:2%;
+}
+.title-hashtag{
+    font-size: 2rem;
+}
+.hashtag-content{
+    text-align: left;
+    font-size: 1rem;
+}
+textarea:focus{
+    border:none;
+}
+.profil-text{
+    text-align: left;
+    display: inline;
+    margin-left: 2%;
+    font-size: 1.5rem;
+}
+.text-post-info{
+    margin-left: 2%;
+    padding-left: 2%;
+    font-size: 1.5rem;
+    border-left: #ccc 1px solid;
+}
+.label-post{
+    width: 100%;
+    text-align: left;
+    display: flex;
+}
+.switchPosted{
+    margin-left: auto;
+    margin-right: 0;
+}
+.hashtag-input{
+    width: 100%;
+    border: none;
+    margin-bottom: 5%;
+}
+.button-post-2{
+    width: 100%;
+    background-color: #333;
+    color:#fff;
+    font-size: 2rem;
+    padding : 2% 2% 2% 2%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    border-radius: 0.5rem;
+    border:none;
+}
+.button-post-2:hover{
+    background-color: #ff1b1c;
+    color:#333;
+}
+.input-container{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+.profil-info{
+    display: flex;
+}
+.photo-profil{
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+}
