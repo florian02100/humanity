@@ -15,7 +15,7 @@ function Home() {
     
     const fetchUserItems = async () => {
 
-        if(window.sessionStorage.getItem('UID') === ""){
+        if(window.sessionStorage.getItem('UID') == ""){
 
             document.location.href="/Login"; 
 
@@ -24,7 +24,7 @@ function Home() {
             const data = await fetch('/activeUser');
             const items = await data.json();
             setUserItems(items);
-            
+
         }
     };
 
