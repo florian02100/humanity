@@ -10,10 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && npm start",
     "build": "cd client && npm run build",
-    "predeploy":"npm run build",
-    "deploy":"cd client && gh-pages -d build"
+    "install-client":"cd client && npm install",
+    "heroku-postbuild":"npm run install-client && npm run build"
   },
-  "author": "",
+  "engines":{
+    "node":"16.x"
+  },
+  "author": "Florian DORDAIN",
   "license": "ISC",
   "dependencies": {
     "@tinymce/tinymce-react": "^3.13.0",
