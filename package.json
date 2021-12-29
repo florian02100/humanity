@@ -2,13 +2,16 @@
   "name": "identity",
   "version": "1.0.0",
   "description": "social network to promote alternative way ",
+  "homepage":"https://florian02100.github.io/humanity",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && npm start",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+    "predeploy":"npm run duild",
+    "deploy":"gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
