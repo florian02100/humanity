@@ -17,7 +17,7 @@ var privateKey  = fs.readFileSync('host.key', 'utf8');
 var certificate = fs.readFileSync('host.crt', 'utf8');
 var credentials = {key: privateKey, cert: certificate};
 var httpServer = http.createServer(app);
-var httpsServer = https.createServer(credentials, app);
+//var httpsServer = https.createServer(credentials, app);
 
 //Permet de crypter les données
 var bcrypt = require('bcrypt');
@@ -53,7 +53,7 @@ var sessionstorage = require('sessionstorage');
 
 //Connexion à la base de donnee
 mongoose.connect(dbURI, { useNewUrlParser:true , useUnifiedTopology:true })
-    .then((result) => httpsServer.listen(PORT, () => { console.log(`le serveur est lancé sur le port : ${PORT}`)}))
+    .then((result) => httpServer.listen(PORT, () => { console.log(`le serveur est lancé sur le port : ${PORT}`)}))
     .catch((err)=> console.log(err))
 
 
