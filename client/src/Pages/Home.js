@@ -14,9 +14,18 @@ function Home() {
     const [UserItems, setUserItems] = useState([]);
     
     const fetchUserItems = async () => {
-        const data = await fetch('/activeUser');
-        const items = await data.json();
-        setUserItems(items);
+
+        if(window.sessionStorage.getItem('UID') === ""){
+
+            document.location.href="/Login"; 
+
+        }else{
+
+            const data = await fetch('/activeUser');
+            const items = await data.json();
+            setUserItems(items);
+            
+        }
     };
 
     return (
