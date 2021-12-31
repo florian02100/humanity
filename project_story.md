@@ -102,7 +102,13 @@ Tâches :
 * email inscription OK
 * Envoyer des notifications quotidienne => gratitude (Plus tard)
 * Edition photo profil + nom + punchline OK
-* Page découverte par hashtag 
+* Page découverte par hashtag OK => A voir après avec les posts 
+* Hide login navbar => dessous 
+* //Si contient login alors hide nav bar et romnté login content
+* Redirection vers login si pas connecté
+* Nettoyer la base de données post + Tag 
+
+* inscriptions ne marche pas ? 
 
 
 ICônes : 

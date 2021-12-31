@@ -22,6 +22,14 @@ function Navbar(props) {
     const [sideTag,setSideTag] = useState(false);
     const showTag = () => setSideTag(!sideTag);
 
+    //window.location.href
+
+    useEffect( () => {    
+        console.log(window.location.href);
+
+        //Si contient login alors hide nav bar et romnté login content
+    }, []);
+
     return (
         <>
           <div className="navbar">
