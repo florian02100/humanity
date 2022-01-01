@@ -22,17 +22,25 @@ function Navbar(props) {
     const [sideTag,setSideTag] = useState(false);
     const showTag = () => setSideTag(!sideTag);
 
+    const [LoginPage, setLoginPage] = useState(false)
+
     //window.location.href
 
     useEffect( () => {    
-        console.log(window.location.href);
+
+        console.log();
+
+        let location = window.location.href
+        setLoginPage(location.includes("login"));
+
+        console.log('value of login page : '+LoginPage);
 
         //Si contient login alors hide nav bar et romnté login content
     }, []);
 
     return (
         <>
-          <div className="navbar">
+          <div className={LoginPage ? 'navbar-hidden' : 'navbar'}>
                 <div className="navbar-header">
                     <div className="company-info">
                         <img className="company-logo" src="/img/humanity.png" />

@@ -11,6 +11,10 @@
     position: fixed;
 }
 
+.navbar-hidden{
+    display: none;
+}
+
 .title-navbar-company{
     font-family: 'Chivo', sans-serif;
     font-weight: bold;

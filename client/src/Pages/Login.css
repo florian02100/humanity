@@ -126,16 +126,18 @@
 
   .quote{
     position: fixed;
-    top:10vh;
-    left: 32%;
+    top:0vh;
+    left: 30%;
 
   }
 
   .quote h3{
+    margin-left: 2%;
     font-size: 5rem;
     color: #fff;
   }
   .quote p{
+    margin-left: 2%;
     font-size: 3rem;
     color: #fff;
   }
