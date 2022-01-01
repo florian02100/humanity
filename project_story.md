@@ -91,9 +91,13 @@ Tâches :
 * OK pour la création des hashtag OK
 
 -- Content 
-* Alimenter BDD hastag
+* Alimenter BDD hashtag 
+* Faire une boîte à idée (proposer des hashtag)
 * Question profil 
 * Rédigé le mail d'inscription 
+* au lieu de "poster" -> "partager"
+
+* qu'avez-vous envie de paratger => faire défiler des questions pré-enregistrées
 
 -- Technical 
 * Règler pb password dans login OK
@@ -107,8 +111,17 @@ Tâches :
 * //Si contient login alors hide nav bar et romnté login content
 * Redirection vers login si pas connecté
 * Nettoyer la base de données post + Tag 
+* Création de bitmoji à la place de la photo de profil 
 
 * inscriptions ne marche pas ? 
+* bouger icone tchat en haut 
+* suggestion d'amis par hastag ...
+
+-- Improvements : 
+
+* clic sur hashtag => lien vers page explorer sur ce hashtag particulier 
+*
+
 
 
 ICônes : 
