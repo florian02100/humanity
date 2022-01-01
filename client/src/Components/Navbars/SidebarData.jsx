@@ -42,10 +42,16 @@ export const SidebarData = [
     path:'/Explorer',
     icon:<img className="icon-navbar" src="/Icons/boussole.png" />,
     cName: 'nav-text-single'
-},{
+}
+,{
     title:'',
     path:'/profil/parametres',
     icon:<img className="icon-navbar" src="/Icons/reglages.png" />,
+    cName: 'nav-text-single'
+},{
+    title: '',
+    path:'/tchat',
+    icon:<img className="icon-navbar" src="/Icons/tchat.png" />,
     cName: 'nav-text-single'
 }
 ]

@@ -59,16 +59,6 @@ function Navbar(props) {
            <div className={sideTag ? 'navTag' : 'navTag-hidden'}>
                 <TagInput />
            </div>
-
-          
-            <Link to='/Tchat'>
-               <div className="buttonTchat">
-                   <div className="buttonIcon">
-                       <MdIcons.MdMessage />
-                   </div>
-                </div>
-            </Link>
-           
         </>
     )
 }

@@ -14,13 +14,14 @@ function Subscriptions() {
     const [passOK, setpassOK] = useState(false)
 
     useEffect( () => {
+        console.log('Je suis là')
         const queryParams = new URLSearchParams(window.location.search);
         const CompleteName = queryParams.get('name');
         const email = queryParams.get('mail');
         const image = queryParams.get('url');
 
-        const name = CompleteName.split(' ')[1];
-        const firstname = CompleteName.split(' ')[0];
+        //const name = CompleteName.split(' ')[1];
+        //const firstname = CompleteName.split(' ')[0];
 
         setName(name);
         setFirstName(firstname);
@@ -47,10 +48,6 @@ function Subscriptions() {
 
     return (
         <div className="Subscriptions">
-            <div className="subscriptions-content-title">
-                <h1> </h1>
-            </div>
-
             <div className='subscription-content'>
                 <div className="card-subscriptions">
                     <h3> Inscription </h3>

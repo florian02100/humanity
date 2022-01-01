@@ -113,11 +113,13 @@ Tâches :
 * Nettoyer la base de données post + Tag 
 * Création de bitmoji à la place de la photo de profil 
 
+---------------------------------------
+
 * inscriptions ne marche pas ? 
 * bouger icone tchat en haut 
 * suggestion d'amis par hastag ...
 
--- Improvements : 
+-- Improvements 
 
 * clic sur hashtag => lien vers page explorer sur ce hashtag particulier 
 *
