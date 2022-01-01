@@ -15,9 +15,11 @@ function Home() {
     
     const fetchUserItems = async () => {
 
-        if(window.sessionStorage.getItem('UID') == ""){
+        console.log('UID from home : '+window.sessionStorage.getItem('UID'));
 
-            document.location.href="/Login"; 
+        if(window.sessionStorage.getItem('UID') == null){
+
+            document.location.href="/login"; 
 
         }else{
 
