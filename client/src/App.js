@@ -15,6 +15,7 @@ import Tchat from './Pages/Tchat'
 import Login from './Pages/Login'
 import Explorer from './Pages/Explorer'
 import Subscriptions from './Pages/Subscriptions';
+import Welcome from './Pages/Welcome'
 import CardMain from './Components/Navbars/CardsMainVote'
 import UserProfile from './Pages/UserProfile'
 import Dashboard from './Pages/Dashboard'
@@ -48,6 +49,7 @@ function App() {
           <Route path='/Explorer' component={Explorer} />
           <Route path='/Dashboard' component={Dashboard} />
           <Route path="/Subscriptions" component={Subscriptions}/>
+          <Route path="/Welcome" component={Welcome}/>
         </Switch>
        {/* <SidebarTag />*/}
       </Router>

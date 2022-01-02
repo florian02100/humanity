@@ -117,6 +117,10 @@ app.get('/Login', (req,res) => {
     res.sendFile(path.join(__dirname,'./client/build/index.html'))
 })
 
+app.get('/Welcome', (req,res) => {
+    res.sendFile(path.join(__dirname,'./client/build/index.html'))
+})
+
 app.get('/Tchat', (req,res) => {
     res.sendFile(path.join(__dirname,'./client/build/index.html'))
 })
